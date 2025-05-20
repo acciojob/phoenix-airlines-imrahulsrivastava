@@ -7,8 +7,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(() => ({
   button: {
-    marginTop: 10
-  }
+    marginTop: 10,
+  },
 }));
 
 const Confirmation = () => {
@@ -33,7 +33,7 @@ const Confirmation = () => {
 
 Confirmation.propTypes = {
   history: PropTypes.object,
-  classes: PropTypes.object
+  classes: PropTypes.object,
 };
 
 export default Confirmation;
